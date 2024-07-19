@@ -3,6 +3,29 @@
 
 @string{aps = {American Physical Society,}}
 
+
+@article{BehrEvaLatin,
+  abbr={LREC-COLING-2024},
+  bibtex_show={true},
+  title={Behr at EvaLatin 2024: Latin Dependency Parsing Using Historical Sentence Embeddings},
+  author={Behr, Rufus},
+  editor={Sprugnoli, Rachele and Passarotti, Marco},
+  booktitle={Proceedings of the Third Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA) @ LREC-COLING-2024},
+  month={May},
+  year={2024},
+  publisher={ELRA and ICCL},
+  url={https://aclanthology.org/2024.lt4hala-1.22},
+  pages={198--202},
+  abstract={This paper identifies the system used for my submission to EvaLatin's shared dependency parsing task as part of the LT4HALA 2024 workshop. EvaLatin presented new Latin prose and poetry dependency test data from potentially different time periods, and imposed no restriction on training data or model selection for the task. This paper, therefore, sought to build a general Latin dependency parser that would perform accurately regardless of the Latin age to which the test data belongs. To train a general parser, all of the available Universal Dependencies treebanks were used, but in order to address the changes in the Latin language over time, this paper introduces historical sentence embeddings. A model was trained to encode sentences of the same Latin age into vectors of high cosine similarity, which are referred to as historical sentence embeddings. The system introduces these historical sentence embeddings into a biaffine dependency parser with the hopes of enabling training across the Latin treebanks in a more efficacious manner, but their inclusion shows no improvement over the base model.},
+  pdf={Latin-Dependency-Parsing-Using-Historical-Embeddings.pdf},
+  dimensions={true},
+  preview={dependency.png},
+  google_scholar_id={d1gkVwhDpl0C},
+  code={https://github.com/SufurElite/LatinDependencyParser},
+  selected={true}
+}
+
+
 @book{einstein1920relativity,
   title={Relativity: the Special and General Theory},
   author={Einstein, Albert},
