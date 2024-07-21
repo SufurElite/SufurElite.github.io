@@ -3,95 +3,147 @@
   contents:
     - name: Full Name
       value: Rufus Behr 
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
+ 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
+  - title: University of Aberdeen – BSc in Computing Science and Mathematics
+    year: 2020 - 2023
+    location: UK
+    description:
+    - 'Grade: First Class'
+    - 'Undergraduate Thesis: "Stylistic Models for Authorial Recreation: A Comparison of Transformer-based Language Models for Author-Styled Latin Text Generation", supervised by Dr. Ehud Reiter'
+    - 'Relevant Coursework: Languages and Computability, Artificial Intelligence, Intro to Machine Learning and Data Mining, Algorithmic Problem Solving, 
+    Intro to Data Management for Data Science, Research Methods, Principles of Software Engineering, Software Engineering and Professional Practice, 
+    Linear Algebra I-II, Analysis I-IV, Complex Analysis, Differential Equations,  Nonlinear Dynamics and Chaos Theory I, Group Theory, Galois Theory, and Modelling Theory'
+  - title: Rensselaer Polytechnic Institute – Computer Systems Engineering
+    year: 2018 - 2019
+    location: USA
+    description:
+      - 'Started my undergraduate education at RPI before transferring to the University of Aberdeen'
+  - title: Fordham Preparatory School – High School Diploma
+    year: 2014 - 2018
+    location: USA
+    
+- title: Work Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+  - title: 'Research Software Engineer @ Northeastern University'
+    year: 'August 2023 - <br>present'
+    location:   Remote
+  - title: 'Demonstrator (Teaching Assistant) @ University of Aberdeen'
+    location: Aberdeen, UK 
+    year: 'Jan 2023 - <br>May 2023'
+    description:
+    - 'Led tutorial sessions for CS2522 Algorithms and Data Structures'
+  - title: 'Summer Analyst @ Goldman Sachs'
+    year: Summer 2022
+    location: London, UK
+    description:
+    - 'Worked on an internal web app, following a scrum methodology using Jira'
+    - 'Created components for the front end in Typescript and React with 100% test coverage in Jest'
+    - 'Wrote the back end in Java using Springboot, deployed on AWS ECS Fargate, and rewrote the same functionality in Python, on AWS Lambda'
+  - title: 'Data Science Intern @ ReSource Pro'
+    year: 'Jun 2018 - <br> Dec 2020'
+    location: Qingdao, China, <br>& Remotely
+    description:
+    - 'Researched and applied machine learning models to Insurance Documents to automate laborious processes'
+    - 'Developed three key models: one that can discern the type of insurance document provided currently used on
+thousands of documents daily, one that could determine the type of Acord Document File, and a proof of concept joint
+Part-Of-Speech Tagger and Neural Network Dependency Parser to generate Insurance Policy Document Summaries'
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Other Research Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+  - title: 'Using Machine Learning to reduce localisation errors for automated radiotelemetry systems'
+    year: Summer 2022
+    location: UK
+    description:
+    - '<a href="https://www.quadrat.ac.uk/opportunities/ug-research-experience-placements/">Quadrat Undergraduate Research Experience Placement</a> @ University of Aberdeen'
+    - 'Supervised by by <a href="https://www.abdn.ac.uk/sbs/people/profiles/justin.travis" target="_blank"><b>Dr. Justin Travis</b></a>'
+    - 'Worked on applying Machine Learning to reduce localization errors for automated radiotelemetry systems to track animals'
+    - 'Using Python (PyTorch, Scikit, NumPy) I improved the initial multilateration error from over 150m to 60m'
+  - title: 'Simulating Chess Playstyle'
+    year: Autumn 2019
+    location: USA
+    description:
+    - 'Undergraduate Research @ Rensselaer Polytechnic Institute'
+    - 'Led Undergraduate Research Project, Aleph Naught, which aimed to simulate the playing style of a chess player given their historical games'
+    - 'Culminated in a Proof of Concept that won Best Implementation and Potential for Growth at IvyHacks, an online Hackathon co-hosted by Ivy League universities with 1500+ participants, in Oct 2020' 
+    - 'Built the FrontEnd in Vue.JS, and both the model, a Binary Classifier that determines how likely a position would be played, and the BackEnd were written in Python using TensorFlow, NumPy, Scikit, and Flask.'
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+  - year: Scholarships
+    items:
+    - 'North American Merit Scholarship (2021)'
+    - '<a href="https://www.abdn.ac.uk/giving/about/findlay-walker-scholarships-364.php" target="_blank"><b>Findlay Walker Scholarship</b></a> (2020)'
+  - year: School<br>Awards
+    items:
+    - 'University of Aberdeen Intelligent Plant Inform Prize (2022) for the project Bumpr developed as part of the Software Engineering Course'
+    - 'University of Aberdeen Jenkyns Prize in Greek/Latin Language (2022) for attaining the highest marks in the study of Greek or Latin language '
+    - 'University of Aberdeen Black Prize (2022) for being the best Latin scholar'
+    - 'University of Aberdeen’s Chancellor’s List (2021)'
+    - 'Received Two Classwide Awards at Fordham Prep (2018):
+        <ul>
+          <li> The School’s First Recipient of Excellence in both Latin and Ancient Greek </li>
+          <li> Excellence in Fordham University Coursework, for my success in CISC 3060: Introduction to Robotics, concurrently taken in my senior year of high school.  </li>
+        </ul>'
+  - year: Hackathons
+    items:
+    - '<a href = "https://devpost.com/software/savax"> University of Cambridge’s Hex Cambridge: People’s Choice & Wolfram Award (2021) </a>'
+    - '<a href = "https://www.abdn.ac.uk/news/14420/"> Ivy League Hackathon IvyHacks: Best Implementation and Potential for Growth (2020) </a>'
+    - '<a href = "https://devpost.com/software/coronadvisor"> CalTech’s HackTech: Best COVID-19 Awareness & Prevention Hack & Best Use of Google Cloud (2020) </a>'
+    - '<a href = "https://devpost.com/software/bigredhacks-jayhes"> Cornell University’s Big Red Hacks: Best Technical Feat (2018) </a>'
+    - 'Google Code-In: 8<sup>th</sup> in Moving Blocks Organization (2016)'
+    - '<a href = "https://twitter.com/opencamps/status/754781728615563264">United Nation’s Unite for Humanity Hackathon: 1<sup>st</sup> (2016)</a>'
+    - '<a href = "https://web.archive.org/web/20160216061131/http://ist.psu.edu/itech-challenge">Penn State App Competition: 3<sup>rd</sup> place (2016)</a>'
+    - 'DefHacks(NY): HackerEarth Award for Best Problem-Solver Application (2016)'
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    # - title: Computer skills
+    #   type: list
+    #   contents:
+    #   - '○ Programming languages: C++, Python, Java, JavaScript'
+    #   - '○ Frameworks: PyTorch, Numpy, Scikit, Pandas, React & Vue.JS'
+    #   - '○ Database Systems: NoSQL and SQL'
 
-- title: Other Interests
-  type: list
+- title: Technical Projects
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+  - title: Bumpr
+    description:
+      - Made a tinder-esque app for people to buy used cars on a team using an Agile workflow
+      - Used React Native for the Frontend and Flask, Firebase, & Open-Cv in Python for the Backend
+  - title: Chadvice
+    description:
+      - Created an Android Application that, utilising Natural Language Processing and Machine Learning, provides analysis of your dating app conversations in real-time, gauging their interest and the likelihood of getting ghosted
+      - Developed the Frontend in Java and the Backend in Python, hosted on Google Cloud
+  - title: Coronadvisor
+    description:
+      - Trained an Artificial Neural Network and XGBoost Regressor, based on our engineered daily data from Johns Hopkins, to predict confirmed cases and deaths in given regions due to COVID 1 year into the future, visualised on Esri
+      - Used Pandas, Scikit, TensorFlow, Flask, arcGis, Google Maps Geolocation API, HTML, CSS, and JavaScript
+  - title: Check It
+    description:
+      - Built a plagiarism detector that analyses the writing style of a new essay and compares it to the writing style of the student that submitted it
+      - Built the Frontend as a C# WPF Application and applied NLP methodology in Python to create the model
+
+      # - title: Academic Interests
+      #   type: nested_list
+      #   contents:
+      #     - title: Topic 1.
+      #       items:
+      #         - Description 1.
+      #         - Description 2.
+      #     - title: Topic 2.
+      #       items:
+      #         - Description 1.
+      #         - Description 2.
+      # 
+      # - title: Other Interests
+      #   type: list
+      #   contents:
+      #   - 'Sports: Wrestling, Cycling, and Rock Climbing'
+      #   - 'Hobbies: Chess, Bridge, and Languages'
+

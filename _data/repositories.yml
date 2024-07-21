@@ -1,13 +1,11 @@
-github_users:
-  - SufurElite
+#github_users:
+#  - SufurElite
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - SufurElite/LatinDependencyParser
+  - SufurElite/LatinNLG  
+  - SufurElite/ExpertAIHackathon
+  - SufurElite/ML-Telemetery-Error-Localisation-Reduction
+  - SufurElite/LatinAuthorshipAttribution
