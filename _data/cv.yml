@@ -31,6 +31,10 @@
   - title: 'Research Software Engineer @ Northeastern University'
     year: 'August 2023 - <br>present'
     location:   Remote
+    description:
+     - 'Infrastructure as Code: automated course creation process for professors that wanted to use our High Performance Computing (HPC) Cluster by interfacing with Canvas, creating UNIX accounts and groups, and populating the filesystem with ACLs and quotas; this automation freed $\sim$10 hours a week for sysadmins at the start of semesters'
+     - 'Developed and containerized tools for sysadmins and users of the cluster -- including, among other things, enabling user interaction with our filesystem quotas using identd for authentication, research group management, and an http server to redirect our servers update requests to a local mirror'
+
   - title: 'Demonstrator (Teaching Assistant) @ University of Aberdeen'
     location: Aberdeen, UK 
     year: 'Jan 2023 - <br>May 2023'
