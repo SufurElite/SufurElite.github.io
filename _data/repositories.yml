@@ -4,6 +4,7 @@
 repo_description_lines_max: 3
 
 github_repos:
+  - SufurElite/ELC-ParserBERT
   - SufurElite/LatinDependencyParser
   - SufurElite/LatinNLG  
   - SufurElite/ExpertAIHackathon
