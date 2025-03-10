@@ -3,21 +3,34 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{BehrBabyLM,
-  abbr={CoNLL-2024},
-  title={ELC-ParserBERT: Low-Resource Language Modeling Utilizing a Parser Network With ELC-BERT},
-  author={Behr, Rufus},
-  editor={Michael Y. Hu and Aaron Mueller and Candace Ross and Adina Williams and Tal Linzen and Chengxu Zhuang and Ryan Cotterell and Leshem Choshen and Alex Warstadt and Ethan Gotlieb Wilcox},
-  month={Nov},
-  year={2024},
-  publisher={CoNLL},
-  url={https://babylm.github.io/index.html},
-  code={https://github.com/SufurElite/ELC-ParserBERT},
-  dimensions={true},
-  abstract={This paper investigates the effect of including a parser network, which produces syntactic heights and distances to perform unsupervised parsing, in the Every Layer Counts BERT (ELC-BERT) architecture trained on 10M tokens for the 2024 BabyLM challenge. The parser network's inclusion in this setup shows little or no improvement over the ELC-BERT baseline for the BLiMP and GLUE evaluation, but, in particular domains of the EWoK evaluation framework, its inclusion shows promise for improvement and raises interesting questions about its effect on learning different concepts.},
-  pdf={ELC_ParserBERT.pdf},
-  preview={InducedParseTree.png},
-  selected={true}
+@inproceedings{BehrBabyLM,
+    title="{ELC}-{P}arser{BERT}: Low-Resource Language Modeling Utilizing a Parser Network With {ELC}-{BERT}",
+    abbr={CoNLL-2024},
+    bibtex_show={true},
+    author={"Behr, Rufus"},
+    editor={"Hu, Michael Y.  and
+      Mueller, Aaron  and
+      Ross, Candace  and
+      Williams, Adina  and
+      Linzen, Tal  and
+      Zhuang, Chengxu  and
+      Choshen, Leshem  and
+      Cotterell, Ryan  and
+      Warstadt, Alex  and
+      Wilcox, Ethan Gotlieb"},
+    booktitle={"The 2nd BabyLM Challenge at the 28th Conference on Computational Natural Language Learning"},
+    month={"Nov."},
+    year={"2024"},
+    address={"Miami, FL, USA"},
+    publisher={"Association for Computational Linguistics"},
+    url={"https://aclanthology.org/2024.conll-babylm.11/"},
+    pages={"140--146"},
+    code={https://github.com/SufurElite/ELC-ParserBERT},
+    dimensions={true},
+    google_scholar_id={9yKSN-GCB0IC},
+    abstract={"This paper investigates the effect of including a parser network, which produces syntactic heights and distances to perform unsupervised parsing, in the Every Layer Counts BERT (ELC-BERT) architecture trained on 10M tokens for the 2024 BabyLM challenge. The parser network`s inclusion in this setup shows little or no improvement over the ELC-BERT baseline for the BLiMP and GLUE evaluation, but, in particular domains of the EWoK evaluation framework, its inclusion shows promise for improvement and raises interesting questions about its effect on learning different concepts."},
+    preview={InducedParseTree.png},
+    selected={true}
 }
 
 
